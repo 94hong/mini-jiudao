@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Like": "/components/like/index",
+    "Movie": "/components/classic/movie/index",
+    "Epsoide": "/components/epsoide/index"
+  }
+}

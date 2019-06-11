@@ -1,0 +1,16 @@
+<view>
+  <view class="header">
+    <Epsoide
+      index="{{classicInfo.index}}"
+    ></Epsoide>
+    <Like 
+      class="like"
+      like="{{classicInfo.like_status}}" 
+      count="{{classicInfo.fav_nums}}"
+      bind:myLikeClick="onMyLikeClick"
+    ></Like>
+  </view>
+  <Movie img="{{classicInfo.image}}" content="{{classicInfo.content}}"></Movie>
+</view>
+  
+  

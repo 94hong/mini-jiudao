@@ -1,0 +1,7 @@
+<!--components/like/index.wxml-->
+<view class="container" bind:tap="onLikeClick">
+  <image wx:if="{{!like}}" class="like" src="./images/unlike.png" />
+  <image wx:else class="like" src="./images/like.png" />
+  <text class="text">{{count}}</text>
+</view>
+  
